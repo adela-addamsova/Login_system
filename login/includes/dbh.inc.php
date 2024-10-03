@@ -5,10 +5,6 @@ $dsn = "mysql:host=localhost;dbname=myfirstdatabase";
 $dbusername = "root";
 $dbpassword = "";
 
-/* $pdo = new PDO($dsn, $dbusername, $dbpassword);
-    - propojení s databází, pokud je všechno správně
-    - bezpečnější přes try - catch, pokud by byl error
-*/
 
 try {
     $pdo = new PDO($dsn, $dbusername, $dbpassword);
